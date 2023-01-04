@@ -1,0 +1,180 @@
+Version=1.0
+BuildSupport=Managed
+BuildCommand=%makeprefix% make --no-print-directory
+PreferredBuildSpecs=win32:A*.*
+PreferredBuildSpecs=linux:A*.*
+GlobalMacro.Name=PROJECT_TYPE
+GlobalMacro.PROJECT_TYPE.Value=RTP
+GlobalMacro.Name=DEFINES
+GlobalMacro.DEFINES.Value=
+GlobalMacro.Name=DO_STRIP
+GlobalMacro.DO_STRIP.Value=0
+GlobalMacro.Name=EXPAND_DBG
+GlobalMacro.EXPAND_DBG.Value=0
+GlobalMacro.Name=APICHECK_OPTIONS
+GlobalMacro.APICHECK_OPTIONS.Value=-warning
+Macro.Name=ADDED_ASMFLAGS
+Macro.Name=ADDED_CXXFLAGS
+Macro.Name=ADDED_CFLAGS
+Macro.Name=ADDED_FLAGS
+Macro.Name=BUILD_ARGS
+Macro.Name=CMAKE_BUILD_TYPE
+Macro.Name=CMAKE_GENERATOR
+Macro.Name=CMAKE_OPTIONS
+Macro.Name=VX_CPU_FAMILY
+Macro.Name=CPU
+Macro.Name=TOOL_FAMILY
+Macro.Name=TOOL_VERSION
+Macro.Name=_CC_VERSION
+Macro.Name=TOOL
+Macro.Name=TOOL_PATH
+Macro.Name=CC_ARCH_SPEC
+Macro.Name=LIBPATH
+Macro.Name=LIBS
+Macro.Name=VSB_DIR
+Macro.Name=VSB_CONFIG_FILE
+Macro.Name=BDGEN_VSB_INCLUDE
+Macro.Name=APICHECK_CMD
+Macro.Name=APICHECK
+BuildTool.Name=C-Compiler
+BuildTool.C-Compiler.InputSuffixes=*.c
+BuildTool.C-Compiler.OutputIsObject=true
+BuildTool.C-Compiler.OutputCanBePassed=false
+BuildTool.Name=C++-Compiler
+BuildTool.C++-Compiler.InputSuffixes=*.cpp;*.CPP;*.C;*.cxx;*.cc
+BuildTool.C++-Compiler.OutputIsObject=true
+BuildTool.C++-Compiler.OutputCanBePassed=false
+BuildTool.Name=Linker
+BuildTool.Linker.InputSuffixes=
+BuildTool.Linker.OutputIsObject=false
+BuildTool.Linker.OutputCanBePassed=false
+BuildTool.Name=Librarian
+BuildTool.Librarian.InputSuffixes=
+BuildTool.Librarian.OutputIsObject=false
+BuildTool.Librarian.OutputCanBePassed=true
+BuildTool.Name=Assembler
+BuildTool.Assembler.InputSuffixes=*.s;*.S
+BuildTool.Assembler.OutputIsObject=true
+BuildTool.Assembler.OutputCanBePassed=false
+BuildSpec.Name=vxsim_VSB_SIMNTllvm_LP64_lld
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.ADDED_ASMFLAGS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.ADDED_CXXFLAGS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.ADDED_CFLAGS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.ADDED_FLAGS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.BUILD_ARGS.Value=-j#JOBS#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.CMAKE_BUILD_TYPE.Value=Debug
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.CMAKE_GENERATOR.Value=Eclipse CDT4 - Unix Makefiles
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.CMAKE_OPTIONS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.VX_CPU_FAMILY.Value=simpc
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.CPU.Value=SIMNT
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.TOOL_FAMILY.Value=llvm
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.TOOL_VERSION.Value=llvm_2016_04
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro._CC_VERSION.Value=llvm_13_0_1_3
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.TOOL.Value=llvm
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.TOOL_PATH.Value=#WIND_HOME#/compilers/llvm-13.0.1.3/#WIND_VX7_LLVM_HOST_TYPE#/bin
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.CC_ARCH_SPEC.Value=--target=x86_64 -m64 -mcmodel=large -fno-omit-frame-pointer -mno-red-zone
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.LIBPATH.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.LIBS.Value=--as-needed  -lc   -lc_internal   -lllvm   -lcplusplus   -lllvmcplus   -ldl 
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.VSB_DIR.Value=D:/workspace/vxsim_VSB
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.VSB_CONFIG_FILE.Value=#VSB_DIR#/h/config/vsbConfig.h
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.BDGEN_VSB_INCLUDE.Value=#VSB_DIR#/h/config/auto.conf
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.APICHECK_CMD.Value=apicheck.sh -r "#VSB_DIR#/usr/apicheck/forbidden_api.lst" -n "nmpentium" -u -s "$<" "$@" #APICHECK_OPTIONS#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Macro.APICHECK.Value=0
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.IncludeSearchPath=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.IncludeSearchPath=-I#VSB_DIR#/share/h
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.IncludeSearchPath=-isystem#VSB_DIR#/usr/h/public
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.IncludeSearchPath=-isystem#VSB_DIR#/usr/h
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.IncludeSearchPath=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.IncludeSearchPath=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Symbol=-D_VX_CPU=_VX_#CPU#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Symbol=-D_VX_TOOL_FAMILY=#TOOL_FAMILY#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Symbol=-D_VX_TOOL=#TOOL#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Symbol=-D_VSB_CONFIG_FILE=\\\"#VSB_DIR#/h/config/vsbConfig.h\\\"
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.Symbol= 
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.SymbolList=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C-Compiler.DerivedFileSignatures=*.o
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C-Compiler.DebugFlags=-gdwarf-3
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C-Compiler.NonDebugFlags= -O2
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C-Compiler.ToolFlags=#CC_ARCH_SPEC# -std=c11 -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -fasm -Wall -Wconversion -Wno-sign-conversion    -MD -MP
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C-Compiler.Command=echo "building $@";%ccompilerprefix% #TOOL_PATH#/clang %DebugModeFlags% %ToolFlags% %Defines% #DEFINES# #ADDED_CFLAGS# %Includes% #ADDED_INCLUDES# -o %OutFile% -c %InFile% && if [ "#APICHECK#" = "1" ]; then #APICHECK_CMD#;fi
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C++-Compiler.DerivedFileSignatures=*.o
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C++-Compiler.DebugFlags=-gdwarf-3
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C++-Compiler.NonDebugFlags= -O2
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C++-Compiler.ToolFlags=#CC_ARCH_SPEC# -ansi -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -std=c++14    -MD -MP
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.C++-Compiler.Command=echo "building $@";%cppcompilerprefix% #TOOL_PATH#/clang %DebugModeFlags% %ToolFlags% %Defines% #DEFINES# #ADDED_C++FLAGS# %Includes% #ADDED_INCLUDES# -o %OutFile% -c %InFile% && if [ "#APICHECK#" = "1" ]; then #APICHECK_CMD#;fi
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Linker.DerivedFileSignatures=*.vxe
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Linker.DebugFlags=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Linker.NonDebugFlags=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Linker.ToolFlags=--defsym __wrs_rtp_base=0x200000000 -u __wr_need_frame_add -u __tls__ -T#VSB_DIR#/usr/ldscripts/rtp.lld   -static -z noseparate-code -z norelro --no-rosegment -z common-page-size=65536 -z max-page-size=65536 #VSB_DIR#/usr/lib/common/crt0.o
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Linker.Command=echo "building $@";  %cpplinkerprefix% #TOOL_PATH#/ld.lld.exe -m elf_x86_64 --no-relax %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% #ADDED_OBJECTS# #LIBPATH# -L#VSB_DIR#/usr/lib/common #ADDED_LIBPATH# --start-group #LIBS# %Libraries% #ADDED_LIBS# --end-group && if [ "#DO_STRIP#" = "1" ]; then mv -f "$@" "$@.unstripped" && #TOOL_PATH#/strippentium -g -o "$@" "$@.unstripped";fi && if [ "#EXPAND_DBG#" = "1" ]; then plink "$@";fi  && $(if $(_WRS_CONFIG_SECURE_LOADER),signtool  --key=$(_WRS_CONFIG_SECURE_LOADER_PRIVATE_SIGNING_KEY_FILE) --cert=$(_WRS_CONFIG_SECURE_LOADER_PUBLIC_SIGNING_CERT_FILE) --type=ELF $@,true) && true
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Librarian.DerivedFileSignatures=*.a
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Librarian.DebugFlags=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Librarian.NonDebugFlags=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Librarian.ToolFlags=crus
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Librarian.Command=echo "building $@";%archiverprefix% #TOOL_PATH#/arpentium %ToolFlags% %OutFile% %Objects% #ADDED_OBJECTS#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Assembler.DerivedFileSignatures=*.o
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Assembler.DebugFlags=-gdwarf-3
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Assembler.NonDebugFlags= -O2
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Assembler.ToolFlags=#CC_ARCH_SPEC# -std=c11 -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -fasm  -xassembler-with-cpp  -MD -MP
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_lld.BuildTool.Assembler.Command=echo "building $@";%assemblerprefix% #TOOL_PATH#/clang %DebugModeFlags% %ToolFlags% %Defines% #DEFINES# #ADDED_CFLAGS# %Includes% #ADDED_INCLUDES# -o %OutFile% -c %InFile%
+BuildSpec.Name=vxsim_VSB_SIMNTllvm_LP64_ld
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.ADDED_ASMFLAGS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.ADDED_CXXFLAGS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.ADDED_CFLAGS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.ADDED_FLAGS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.BUILD_ARGS.Value=-j#JOBS#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.CMAKE_BUILD_TYPE.Value=Debug
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.CMAKE_GENERATOR.Value=Eclipse CDT4 - Unix Makefiles
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.CMAKE_OPTIONS.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.VX_CPU_FAMILY.Value=simpc
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.CPU.Value=SIMNT
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.TOOL_FAMILY.Value=llvm
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.TOOL_VERSION.Value=llvm_2016_04
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro._CC_VERSION.Value=llvm_13_0_1_3
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.TOOL.Value=llvm
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.TOOL_PATH.Value=#WIND_HOME#/compilers/llvm-13.0.1.3/#WIND_VX7_LLVM_HOST_TYPE#/bin
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.CC_ARCH_SPEC.Value=--target=x86_64 -m64 -mcmodel=large -fno-omit-frame-pointer -mno-red-zone
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.LIBPATH.Value=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.LIBS.Value=--as-needed  -lc   -lc_internal   -lllvm   -lcplusplus   -lllvmcplus   -ldl 
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.VSB_DIR.Value=D:/workspace/vxsim_VSB
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.VSB_CONFIG_FILE.Value=#VSB_DIR#/h/config/vsbConfig.h
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.BDGEN_VSB_INCLUDE.Value=#VSB_DIR#/h/config/auto.conf
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.APICHECK_CMD.Value=apicheck.sh -r "#VSB_DIR#/usr/apicheck/forbidden_api.lst" -n "nmpentium" -u -s "$<" "$@" #APICHECK_OPTIONS#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Macro.APICHECK.Value=0
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.IncludeSearchPath=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.IncludeSearchPath=-I#VSB_DIR#/share/h
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.IncludeSearchPath=-isystem#VSB_DIR#/usr/h/public
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.IncludeSearchPath=-isystem#VSB_DIR#/usr/h
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.IncludeSearchPath=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.IncludeSearchPath=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Symbol=-D_VX_CPU=_VX_#CPU#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Symbol=-D_VX_TOOL_FAMILY=#TOOL_FAMILY#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Symbol=-D_VX_TOOL=#TOOL#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Symbol=-D_VSB_CONFIG_FILE=\\\"#VSB_DIR#/h/config/vsbConfig.h\\\"
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.Symbol= 
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.SymbolList=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C-Compiler.DerivedFileSignatures=*.o
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C-Compiler.DebugFlags=-gdwarf-3
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C-Compiler.NonDebugFlags= -O2
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C-Compiler.ToolFlags=#CC_ARCH_SPEC# -std=c11 -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -fasm -Wall -Wconversion -Wno-sign-conversion    -MD -MP
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C-Compiler.Command=echo "building $@";%ccompilerprefix% #TOOL_PATH#/clang %DebugModeFlags% %ToolFlags% %Defines% #DEFINES# #ADDED_CFLAGS# %Includes% #ADDED_INCLUDES# -o %OutFile% -c %InFile% && if [ "#APICHECK#" = "1" ]; then #APICHECK_CMD#;fi
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C++-Compiler.DerivedFileSignatures=*.o
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C++-Compiler.DebugFlags=-gdwarf-3
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C++-Compiler.NonDebugFlags= -O2
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C++-Compiler.ToolFlags=#CC_ARCH_SPEC# -ansi -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -std=c++14    -MD -MP
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.C++-Compiler.Command=echo "building $@";%cppcompilerprefix% #TOOL_PATH#/clang %DebugModeFlags% %ToolFlags% %Defines% #DEFINES# #ADDED_C++FLAGS# %Includes% #ADDED_INCLUDES# -o %OutFile% -c %InFile% && if [ "#APICHECK#" = "1" ]; then #APICHECK_CMD#;fi
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Linker.DerivedFileSignatures=*.vxe
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Linker.DebugFlags=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Linker.NonDebugFlags=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Linker.ToolFlags=--defsym __wrs_rtp_base=0x200000000 -u __wr_need_frame_add -u __tls__ -T#VSB_DIR#/usr/ldscripts/rtp.ld   -static -z noseparate-code -z common-page-size=65536 -z max-page-size=65536 #VSB_DIR#/usr/lib/common/crt0.o
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Linker.Command=echo "building $@";  %cpplinkerprefix% #TOOL_PATH#/ldpentium -m elf_x86_64 --no-relax %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% #ADDED_OBJECTS# #LIBPATH# -L#VSB_DIR#/usr/lib/common #ADDED_LIBPATH# --start-group #LIBS# %Libraries% #ADDED_LIBS# --end-group && if [ "#DO_STRIP#" = "1" ]; then mv -f "$@" "$@.unstripped" && #TOOL_PATH#/strippentium -g -o "$@" "$@.unstripped";fi && if [ "#EXPAND_DBG#" = "1" ]; then plink "$@";fi  && $(if $(_WRS_CONFIG_SECURE_LOADER),signtool  --key=$(_WRS_CONFIG_SECURE_LOADER_PRIVATE_SIGNING_KEY_FILE) --cert=$(_WRS_CONFIG_SECURE_LOADER_PUBLIC_SIGNING_CERT_FILE) --type=ELF $@,true) && true
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Librarian.DerivedFileSignatures=*.a
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Librarian.DebugFlags=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Librarian.NonDebugFlags=
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Librarian.ToolFlags=crus
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Librarian.Command=echo "building $@";%archiverprefix% #TOOL_PATH#/arpentium %ToolFlags% %OutFile% %Objects% #ADDED_OBJECTS#
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Assembler.DerivedFileSignatures=*.o
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Assembler.DebugFlags=-gdwarf-3
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Assembler.NonDebugFlags= -O2
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Assembler.ToolFlags=#CC_ARCH_SPEC# -std=c11 -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -fasm  -xassembler-with-cpp  -MD -MP
+BuildSpec.vxsim_VSB_SIMNTllvm_LP64_ld.BuildTool.Assembler.Command=echo "building $@";%assemblerprefix% #TOOL_PATH#/clang %DebugModeFlags% %ToolFlags% %Defines% #DEFINES# #ADDED_CFLAGS# %Includes% #ADDED_INCLUDES# -o %OutFile% -c %InFile%

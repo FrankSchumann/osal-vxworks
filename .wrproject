@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wrxml>
+    <properties platform="VxWorks7" platform_name="vxworks/22.09" root="1" type="CMakeRealTimeProcessProject"/>
+    <attributes>
+        <mapAttribute>
+            <intAttribute key="BuildSupportEnabled" value="1"/>
+            <listAttribute key="CMake_define">
+                <stringAttribute value="CMAKE_INSTALL_PREFIX:STRING=$FINAL_VSB_PATH/usr/3pp/develop/usr"/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|cmd" value="sh wr_build.sh"/>
+            <listAttribute key="BLD::Info|GlobalMacros">
+                <stringAttribute value="PROJECT_TYPE"/>
+                <stringAttribute value="DEFINES"/>
+                <stringAttribute value="DO_STRIP"/>
+                <stringAttribute value="EXPAND_DBG"/>
+                <stringAttribute value="APICHECK_OPTIONS"/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|GlobalMacro|PROJECT_TYPE" value="RTP"/>
+            <stringAttribute key="BLD::Info|GlobalMacro|DEFINES" value=""/>
+            <stringAttribute key="BLD::Info|GlobalMacro|DO_STRIP" value="0"/>
+            <stringAttribute key="BLD::Info|GlobalMacro|EXPAND_DBG" value="0"/>
+            <stringAttribute key="BLD::Info|GlobalMacro|APICHECK_OPTIONS" value="-warning"/>
+            <listAttribute key="BLD::Info|Macros">
+                <stringAttribute value="ADDED_ASMFLAGS"/>
+                <stringAttribute value="ADDED_CXXFLAGS"/>
+                <stringAttribute value="ADDED_CFLAGS"/>
+                <stringAttribute value="ADDED_FLAGS"/>
+                <stringAttribute value="BUILD_ARGS"/>
+                <stringAttribute value="CMAKE_BUILD_TYPE"/>
+                <stringAttribute value="CMAKE_GENERATOR"/>
+                <stringAttribute value="CMAKE_OPTIONS"/>
+                <stringAttribute value="VX_CPU_FAMILY"/>
+                <stringAttribute value="CPU"/>
+                <stringAttribute value="TOOL_FAMILY"/>
+                <stringAttribute value="TOOL_VERSION"/>
+                <stringAttribute value="_CC_VERSION"/>
+                <stringAttribute value="TOOL"/>
+                <stringAttribute value="TOOL_PATH"/>
+                <stringAttribute value="CC_ARCH_SPEC"/>
+                <stringAttribute value="LIBPATH"/>
+                <stringAttribute value="LIBS"/>
+                <stringAttribute value="VSB_DIR"/>
+                <stringAttribute value="VSB_CONFIG_FILE"/>
+                <stringAttribute value="BDGEN_VSB_INCLUDE"/>
+                <stringAttribute value="APICHECK_CMD"/>
+                <stringAttribute value="APICHECK"/>
+            </listAttribute>
+            <listAttribute key="BLD::Info|Tools">
+                <stringAttribute value="C-Compiler"/>
+                <stringAttribute value="C++-Compiler"/>
+                <stringAttribute value="Linker"/>
+                <stringAttribute value="Librarian"/>
+                <stringAttribute value="Assembler"/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|sigs" value="*.c"/>
+            <booleanAttribute key="BLD::Info|Tool|C-Compiler|object" value="true"/>
+            <booleanAttribute key="BLD::Info|Tool|C-Compiler|passAble" value="false"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|sigs" value="*.cpp;*.CPP;*.C;*.cxx;*.cc"/>
+            <booleanAttribute key="BLD::Info|Tool|C++-Compiler|object" value="true"/>
+            <booleanAttribute key="BLD::Info|Tool|C++-Compiler|passAble" value="false"/>
+            <stringAttribute key="BLD::Info|Tool|Linker|sigs" value=""/>
+            <booleanAttribute key="BLD::Info|Tool|Linker|object" value="false"/>
+            <booleanAttribute key="BLD::Info|Tool|Linker|passAble" value="false"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|sigs" value=""/>
+            <booleanAttribute key="BLD::Info|Tool|Librarian|object" value="false"/>
+            <booleanAttribute key="BLD::Info|Tool|Librarian|passAble" value="true"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|sigs" value="*.s;*.S"/>
+            <booleanAttribute key="BLD::Info|Tool|Assembler|object" value="true"/>
+            <booleanAttribute key="BLD::Info|Tool|Assembler|passAble" value="false"/>
+            <listAttribute key="BLD::Info|specs">
+                <stringAttribute value="vxsim_VSB_SIMNTllvm_LP64_ld"/>
+                <stringAttribute value="vxsim_VSB_SIMNTllvm_LP64_lld"/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|redirDir|vxsim_VSB_SIMNTllvm_LP64_lld" value="vxsim_VSB_SIMNTllvm_LP64_lld"/>
+            <stringAttribute key="BLD::Info|Macro|ADDED_ASMFLAGS|value|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADDED_CXXFLAGS|value|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADDED_CFLAGS|value|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADDED_FLAGS|value|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|BUILD_ARGS|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="-j$(JOBS)"/>
+            <stringAttribute key="BLD::Info|Macro|CMAKE_BUILD_TYPE|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="Debug"/>
+            <stringAttribute key="BLD::Info|Macro|CMAKE_GENERATOR|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="Eclipse CDT4 - Unix Makefiles"/>
+            <stringAttribute key="BLD::Info|Macro|CMAKE_OPTIONS|value|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="simpc"/>
+            <stringAttribute key="BLD::Info|Macro|CPU|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="SIMNT"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="llvm"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_VERSION|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="llvm_2016_04"/>
+            <stringAttribute key="BLD::Info|Macro|_CC_VERSION|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="llvm_13_0_1_3"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="llvm"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="$(WIND_HOME)/compilers/llvm-13.0.1.3/$(WIND_VX7_LLVM_HOST_TYPE)/bin"/>
+            <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="--target=x86_64 -m64 -mcmodel=large -fno-omit-frame-pointer -mno-red-zone"/>
+            <stringAttribute key="BLD::Info|Macro|LIBPATH|value|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBS|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="--as-needed  -lc   -lc_internal   -lllvm   -lcplusplus   -lllvmcplus   -ldl "/>
+            <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="D:/workspace/vxsim_VSB"/>
+            <stringAttribute key="BLD::Info|Macro|VSB_CONFIG_FILE|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="$(VSB_DIR)/h/config/vsbConfig.h"/>
+            <stringAttribute key="BLD::Info|Macro|BDGEN_VSB_INCLUDE|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="$(VSB_DIR)/h/config/auto.conf"/>
+            <stringAttribute key="BLD::Info|Macro|APICHECK_CMD|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="apicheck.sh -r &quot;$(VSB_DIR)/usr/apicheck/forbidden_api.lst&quot; -n &quot;nmpentium&quot; -u -s &quot;$&lt;&quot; &quot;$@&quot; $(APICHECK_OPTIONS)"/>
+            <stringAttribute key="BLD::Info|Macro|APICHECK|value|vxsim_VSB_SIMNTllvm_LP64_lld" value="0"/>
+            <listAttribute key="BLD::Info|Incl|vxsim_VSB_SIMNTllvm_LP64_lld">
+                <stringAttribute value="-I%Proj-vxsim_VSB%/share/h"/>
+                <stringAttribute value="-I%Proj-vxsim_VSB%/usr/h/public"/>
+                <stringAttribute value="-I%Proj-vxsim_VSB%/usr/h"/>
+            </listAttribute>
+            <listAttribute key="BLD::Info|Definess|vxsim_VSB_SIMNTllvm_LP64_lld">
+                <stringAttribute value="-D_VX_CPU=_VX_$(CPU)"/>
+                <stringAttribute value="-D_VX_TOOL_FAMILY=$(TOOL_FAMILY)"/>
+                <stringAttribute value="-D_VX_TOOL=$(TOOL)"/>
+                <stringAttribute value="-D_VSB_CONFIG_FILE=\\\&quot;$(VSB_DIR)/h/config/vsbConfig.h\\\&quot;"/>
+                <stringAttribute value=" "/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_lld" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value="-gdwarf-3"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value=" -O2"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|vxsim_VSB_SIMNTllvm_LP64_lld" value="$(CC_ARCH_SPEC) -std=c11 -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -fasm -Wall -Wconversion -Wno-sign-conversion    -MD -MP"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|vxsim_VSB_SIMNTllvm_LP64_lld" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)/clang %DebugModeFlags% %ToolFlags% %Defines% $(DEFINES) $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -o %OutFile% -c %InFile% &amp;&amp; if [ &quot;$(APICHECK)&quot; = &quot;1&quot; ]; then $(APICHECK_CMD);fi"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_lld" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value="-gdwarf-3"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value=" -O2"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|vxsim_VSB_SIMNTllvm_LP64_lld" value="$(CC_ARCH_SPEC) -ansi -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -std=c++14    -MD -MP"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|vxsim_VSB_SIMNTllvm_LP64_lld" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)/clang %DebugModeFlags% %ToolFlags% %Defines% $(DEFINES) $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -o %OutFile% -c %InFile% &amp;&amp; if [ &quot;$(APICHECK)&quot; = &quot;1&quot; ]; then $(APICHECK_CMD);fi"/>
+            <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_lld" value="*.vxe"/>
+            <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Linker|flags|vxsim_VSB_SIMNTllvm_LP64_lld" value="--defsym __wrs_rtp_base=0x200000000 -u __wr_need_frame_add -u __tls__ -T$(VSB_DIR)/usr/ldscripts/rtp.lld   -static -z noseparate-code -z norelro --no-rosegment -z common-page-size=65536 -z max-page-size=65536 $(VSB_DIR)/usr/lib/common/crt0.o"/>
+            <stringAttribute key="BLD::Info|Tool|Linker|cmd|vxsim_VSB_SIMNTllvm_LP64_lld" value="echo &quot;building $@&quot;;  %cpplinkerprefix% $(TOOL_PATH)/ld.lld.exe -m elf_x86_64 --no-relax %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) $(LIBPATH) -L$(VSB_DIR)/usr/lib/common $(ADDED_LIBPATH) --start-group $(LIBS) %Libraries% $(ADDED_LIBS) --end-group &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; $(TOOL_PATH)/strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi  &amp;&amp; $(if $(_WRS_CONFIG_SECURE_LOADER),signtool  --key=$(_WRS_CONFIG_SECURE_LOADER_PRIVATE_SIGNING_KEY_FILE) --cert=$(_WRS_CONFIG_SECURE_LOADER_PUBLIC_SIGNING_CERT_FILE) --type=ELF $@,true) &amp;&amp; true"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_lld" value="*.a"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|flags|vxsim_VSB_SIMNTllvm_LP64_lld" value="crus"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|cmd|vxsim_VSB_SIMNTllvm_LP64_lld" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)/arpentium %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_lld" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value="-gdwarf-3"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_lld" value=" -O2"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|flags|vxsim_VSB_SIMNTllvm_LP64_lld" value="$(CC_ARCH_SPEC) -std=c11 -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -fasm  -xassembler-with-cpp  -MD -MP"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|cmd|vxsim_VSB_SIMNTllvm_LP64_lld" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)/clang %DebugModeFlags% %ToolFlags% %Defines% $(DEFINES) $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -o %OutFile% -c %InFile%"/>
+            <stringAttribute key="BLD::Info|redirDir|vxsim_VSB_SIMNTllvm_LP64_ld" value="vxsim_VSB_SIMNTllvm_LP64_ld"/>
+            <stringAttribute key="BLD::Info|Macro|ADDED_ASMFLAGS|value|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADDED_CXXFLAGS|value|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADDED_CFLAGS|value|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADDED_FLAGS|value|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|BUILD_ARGS|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="-j$(JOBS)"/>
+            <stringAttribute key="BLD::Info|Macro|CMAKE_BUILD_TYPE|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="Debug"/>
+            <stringAttribute key="BLD::Info|Macro|CMAKE_GENERATOR|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="Eclipse CDT4 - Unix Makefiles"/>
+            <stringAttribute key="BLD::Info|Macro|CMAKE_OPTIONS|value|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="simpc"/>
+            <stringAttribute key="BLD::Info|Macro|CPU|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="SIMNT"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="llvm"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_VERSION|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="llvm_2016_04"/>
+            <stringAttribute key="BLD::Info|Macro|_CC_VERSION|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="llvm_13_0_1_3"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="llvm"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="$(WIND_HOME)/compilers/llvm-13.0.1.3/$(WIND_VX7_LLVM_HOST_TYPE)/bin"/>
+            <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="--target=x86_64 -m64 -mcmodel=large -fno-omit-frame-pointer -mno-red-zone"/>
+            <stringAttribute key="BLD::Info|Macro|LIBPATH|value|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBS|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="--as-needed  -lc   -lc_internal   -lllvm   -lcplusplus   -lllvmcplus   -ldl "/>
+            <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="D:/workspace/vxsim_VSB"/>
+            <stringAttribute key="BLD::Info|Macro|VSB_CONFIG_FILE|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="$(VSB_DIR)/h/config/vsbConfig.h"/>
+            <stringAttribute key="BLD::Info|Macro|BDGEN_VSB_INCLUDE|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="$(VSB_DIR)/h/config/auto.conf"/>
+            <stringAttribute key="BLD::Info|Macro|APICHECK_CMD|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="apicheck.sh -r &quot;$(VSB_DIR)/usr/apicheck/forbidden_api.lst&quot; -n &quot;nmpentium&quot; -u -s &quot;$&lt;&quot; &quot;$@&quot; $(APICHECK_OPTIONS)"/>
+            <stringAttribute key="BLD::Info|Macro|APICHECK|value|vxsim_VSB_SIMNTllvm_LP64_ld" value="0"/>
+            <listAttribute key="BLD::Info|Incl|vxsim_VSB_SIMNTllvm_LP64_ld">
+                <stringAttribute value="-I%Proj-vxsim_VSB%/share/h"/>
+                <stringAttribute value="-I%Proj-vxsim_VSB%/usr/h/public"/>
+                <stringAttribute value="-I%Proj-vxsim_VSB%/usr/h"/>
+            </listAttribute>
+            <listAttribute key="BLD::Info|Definess|vxsim_VSB_SIMNTllvm_LP64_ld">
+                <stringAttribute value="-D_VX_CPU=_VX_$(CPU)"/>
+                <stringAttribute value="-D_VX_TOOL_FAMILY=$(TOOL_FAMILY)"/>
+                <stringAttribute value="-D_VX_TOOL=$(TOOL)"/>
+                <stringAttribute value="-D_VSB_CONFIG_FILE=\\\&quot;$(VSB_DIR)/h/config/vsbConfig.h\\\&quot;"/>
+                <stringAttribute value=" "/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_ld" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value="-gdwarf-3"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value=" -O2"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|vxsim_VSB_SIMNTllvm_LP64_ld" value="$(CC_ARCH_SPEC) -std=c11 -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -fasm -Wall -Wconversion -Wno-sign-conversion    -MD -MP"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|vxsim_VSB_SIMNTllvm_LP64_ld" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)/clang %DebugModeFlags% %ToolFlags% %Defines% $(DEFINES) $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -o %OutFile% -c %InFile% &amp;&amp; if [ &quot;$(APICHECK)&quot; = &quot;1&quot; ]; then $(APICHECK_CMD);fi"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_ld" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value="-gdwarf-3"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value=" -O2"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|vxsim_VSB_SIMNTllvm_LP64_ld" value="$(CC_ARCH_SPEC) -ansi -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -std=c++14    -MD -MP"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|vxsim_VSB_SIMNTllvm_LP64_ld" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)/clang %DebugModeFlags% %ToolFlags% %Defines% $(DEFINES) $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -o %OutFile% -c %InFile% &amp;&amp; if [ &quot;$(APICHECK)&quot; = &quot;1&quot; ]; then $(APICHECK_CMD);fi"/>
+            <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_ld" value="*.vxe"/>
+            <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Linker|flags|vxsim_VSB_SIMNTllvm_LP64_ld" value="--defsym __wrs_rtp_base=0x200000000 -u __wr_need_frame_add -u __tls__ -T$(VSB_DIR)/usr/ldscripts/rtp.ld   -static -z noseparate-code -z common-page-size=65536 -z max-page-size=65536 $(VSB_DIR)/usr/lib/common/crt0.o"/>
+            <stringAttribute key="BLD::Info|Tool|Linker|cmd|vxsim_VSB_SIMNTllvm_LP64_ld" value="echo &quot;building $@&quot;;  %cpplinkerprefix% $(TOOL_PATH)/ldpentium -m elf_x86_64 --no-relax %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) $(LIBPATH) -L$(VSB_DIR)/usr/lib/common $(ADDED_LIBPATH) --start-group $(LIBS) %Libraries% $(ADDED_LIBS) --end-group &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; $(TOOL_PATH)/strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi  &amp;&amp; $(if $(_WRS_CONFIG_SECURE_LOADER),signtool  --key=$(_WRS_CONFIG_SECURE_LOADER_PRIVATE_SIGNING_KEY_FILE) --cert=$(_WRS_CONFIG_SECURE_LOADER_PUBLIC_SIGNING_CERT_FILE) --type=ELF $@,true) &amp;&amp; true"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_ld" value="*.a"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|flags|vxsim_VSB_SIMNTllvm_LP64_ld" value="crus"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|cmd|vxsim_VSB_SIMNTllvm_LP64_ld" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)/arpentium %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|vxsim_VSB_SIMNTllvm_LP64_ld" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value="-gdwarf-3"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|vxsim_VSB_SIMNTllvm_LP64_ld" value=" -O2"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|flags|vxsim_VSB_SIMNTllvm_LP64_ld" value="$(CC_ARCH_SPEC) -std=c11 -fno-strict-aliasing  -fno-builtin -D__vxworks -D__VXWORKS__ -D__RTP__ -D__ELF__ -nostdlibinc -nostdinc++  -mllvm -two-entry-phi-node-folding-threshold=2 -fno-unwind-tables -fno-asynchronous-unwind-tables -D_USE_INIT_ARRAY -fasm  -xassembler-with-cpp  -MD -MP"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|cmd|vxsim_VSB_SIMNTllvm_LP64_ld" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)/clang %DebugModeFlags% %ToolFlags% %Defines% $(DEFINES) $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -o %OutFile% -c %InFile%"/>
+            <stringAttribute key="BLD::Info|redirRoot" value=""/>
+            <stringAttribute key="BLD::Info|defaultSpec" value="vxsim_VSB_SIMNTllvm_LP64_ld"/>
+        </mapAttribute>
+    </attributes>
+    <buildtargets>
+        <buildtarget buildtool="Linker" name="osal-vxworks" passed="false" targetname="osal-vxworks">
+            <contents>
+                <folder name="/osal-vxworks" recursive="true"/>
+            </contents>
+        </buildtarget>
+    </buildtargets>
+</wrxml>

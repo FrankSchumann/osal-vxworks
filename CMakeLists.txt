@@ -1,23 +1,23 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required( VERSION 3.15 )
 
 # Set some basic project attributes
-project (Osal
+project (osal-vxworks
 		VERSION 0.0.0.1
 		DESCRIPTION "OSAL VxWorks")
 		
-set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+set( CMAKE_BUILD_TYPE Debug )
+set( CMAKE_CXX_STANDARD 17 )
 
-file(GLOB SOURCES "src/*/*.cpp")
+file( GLOB_RECURSE PROJECT_SOURCE_FILES src/*.cpp )
 
-add_library(${PROJECT_NAME} SHARED ${SOURCES})
+add_library( ${PROJECT_NAME} SHARED ${PROJECT_SOURCE_FILES} )
 
 # Create a simple configuration header
-configure_file(config.h.in config.h)
+configure_file( config.h.in config.h )
 
-include_directories("${PROJECT_BINARY_DIR}" include)
+include_directories( ${PROJECT_BINARY_DIR} include )
 
-message("CMAKE_PROJECT_VERSION = ${CMAKE_PROJECT_VERSION}")
+message( "CMAKE_PROJECT_VERSION = ${CMAKE_PROJECT_VERSION}" )
 
 IF(EXISTS "${WIND_CC_SYSROOT}/secureLoader/privatekey.pem")
 	IF(EXISTS "${WIND_CC_SYSROOT}/secureLoader/publiccert.pem")
